@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_main_level3"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:background="@drawable/level3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageView
+            android:id="@+id/iv_main_channel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/channel1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"/>
+
+        <ImageView
+            android:id="@+id/iv_main_channel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/channel2"
+            android:layout_above="@id/iv_main_channel1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="15dp"/>
+
+        <ImageView
+            android:id="@+id/iv_main_channel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/channel3"
+            android:layout_above="@id/iv_main_channel2"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/channel4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/iv_main_channel7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/channel7"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"/>
+
+        <ImageView
+            android:id="@+id/iv_main_channel6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/channel6"
+            android:layout_above="@id/iv_main_channel7"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="15dp"/>
+
+        <ImageView
+            android:id="@+id/iv_main_channel5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/channel5"
+            android:layout_alignParentRight="true"
+            android:layout_above="@id/iv_main_channel6"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_main_level2"
+        android:layout_width="190dp"
+        android:layout_height="95dp"
+        android:background="@drawable/level2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_search"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_menu"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:onClick="clickMenu"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_myyouku"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_main_level1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/level1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_home"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:onClick="clickHome"/>
+
+    </RelativeLayout>
+</RelativeLayout>
