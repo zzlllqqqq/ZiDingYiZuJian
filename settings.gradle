@@ -1,1 +1,1 @@
-include ':YouKuMenu', ':adbar', ':myselect', ':circlebar', ':cehuashanchu', ':llistView_CommonAdapter'
+include ':YouKuMenu', ':adbar', ':myselect', ':circlebar', ':cehuashanchu', ':llistView_CommonAdapter', ':cehuacaidan', ':kuaisusuoyin', ':kaiguan', ':waterwave', ':myviewpager'
